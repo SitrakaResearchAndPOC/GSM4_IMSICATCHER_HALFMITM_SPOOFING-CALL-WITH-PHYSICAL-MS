@@ -74,16 +74,18 @@ let's see for example imsi as 646040222463674 and extension as 808
 ```
 bash finding_imsi_extenstion.sh
 ```
-* solution 2 : Not stable for dragonOS, should install [karly](https://www.youtube.com/watch?v=_nGVeG_76W8&pp=ygUJa2FybHkgZ3Nt)
-For all [karly_installation](https://github.com/SitrakaResearchAndPOC/CalypsoBTS_Debian)
+* solution 2 : Not stable for dragonOS, should install [karly](https://www.youtube.com/watch?v=_nGVeG_76W8&pp=ygUJa2FybHkgZ3Nt)  
+For all [karly_installation](https://github.com/SitrakaResearchAndPOC/CalypsoBTS_Debian)  
 Use scripts : finding_imsi_extenstion.sh and set_imsi_extension.sh for associating the imsi with extension 808  
 Modify the path of database as hlr.sqlite3     
 Pratices  (bonification):  
 Installing docker on dragonOS where the OS is debian 9 or 10  
-Installing all checkout like [karly_installation](https://github.com/SitrakaResearchAndPOC/CalypsoBTS_Debian)
-Use scripts : finding_imsi_extenstion.sh and set_imsi_extension.sh for associating the imsi with extension 808  
+Installing all checkout like [karly_installation](https://github.com/SitrakaResearchAndPOC/CalypsoBTS_Debian)  
+Use scripts : finding_imsi_extenstion.sh and set_imsi_extension.sh for associating the imsi with extension 808    
 Modify the path of database as hlr.sqlite3     
-Create a github to just install CALL_SPOOFING on docker with dragonOS 29 oir 30 with the two scripts and test it directly
+Create a github to just install CALL_SPOOFING on docker with dragonOS 29 oir 30 with the two scripts and test it directly  
+
+
  
 
 
