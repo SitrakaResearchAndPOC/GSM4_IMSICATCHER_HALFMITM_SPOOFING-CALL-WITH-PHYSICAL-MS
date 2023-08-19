@@ -42,6 +42,22 @@ Installing all config
 ```
 bash install_services.sh
 ```
+For avoiding lock database error 
+```
+fuse -k /var/lib/osmocom/hlr.sqlite3
+```
+Open HLR.db
+```
+gedit scripts/HLR.py 
+```
+Change 
+```
+self.db = sqlite3.connect(hlr_loc)
+```
+By
+```
+self.db = sqlite3.connect(hlr_loc, timeout=3000)
+```
 Running the transceiver
 ```
 osmo-trx-uhd -C /etc/osmocom/osmo-trx-uhd.cfg
