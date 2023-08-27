@@ -44,7 +44,7 @@ bash install_services.sh
 ```
 For avoiding lock database error 
 ```
-fuse -k /var/lib/osmocom/hlr.sqlite3
+fuser -k /var/lib/osmocom/hlr.sqlite3
 ```
 Open HLR.db
 ```
